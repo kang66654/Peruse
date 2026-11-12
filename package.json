@@ -1,0 +1,47 @@
+{
+  "name": "peruse",
+  "version": "1.0.0",
+  "description": "Local-first Chrome extension that records reading time and recommends articles with AI",
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-username>/peruse.git"
+  },
+  "homepage": "https://github.com/<your-username>/peruse#readme",
+  "keywords": [
+    "chrome-extension",
+    "local-first",
+    "reading-tracker",
+    "llm",
+    "byo-api-key",
+    "indexeddb",
+    "vue3",
+    "wxt",
+    "privacy"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "wxt dev",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "echarts": "^5.5.0",
+    "pinia": "^2.2.0",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.280",
+    "@wxt-dev/module-vue": "^1.0.0",
+    "autoprefixer": "^10.4.0",
+    "fake-indexeddb": "^6.2.7",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.6.0",
+    "vitest": "^5.0.5",
+    "wxt": "^0.19.0"
+  }
+}

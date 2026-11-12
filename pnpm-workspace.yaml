@@ -1,0 +1,7 @@
+packages:
+  - '.'
+
+allowBuilds:
+  esbuild: true
+  spawn-sync: true
+  vue-demi: true
