@@ -31,6 +31,7 @@ JOBS = [
     # (html, out, selector or None, viewport w, h, scale)
     (os.path.join(SRC, "hero.html"), os.path.join(DOCS, "images", "hero.png"), ".stage", 1260, 900, 2),
     (os.path.join(SRC, "architecture.html"), os.path.join(DOCS, "images", "architecture.png"), ".stage", 1260, 900, 2),
+    (os.path.join(SRC, "social.html"), os.path.join(DOCS, "images", "social-preview.png"), ".stage", 1260, 700, 2),
     (os.path.join(PROTO, "05-digest.html"), os.path.join(DOCS, "images", "ui-digest.png"), None, 1280, 900, 2),
     (os.path.join(PROTO, "06-stats.html"), os.path.join(DOCS, "images", "ui-stats.png"), None, 1280, 900, 2),
     (os.path.join(PROTO, "07-history.html"), os.path.join(DOCS, "images", "ui-history.png"), None, 1280, 900, 2),
