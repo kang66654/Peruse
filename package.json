@@ -5,9 +5,9 @@
   "license": "AGPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-username>/peruse.git"
+    "url": "https://github.com/kang66654/Peruse.git"
   },
-  "homepage": "https://github.com/<your-username>/peruse#readme",
+  "homepage": "https://github.com/kang66654/Peruse#readme",
   "keywords": [
     "chrome-extension",
     "local-first",

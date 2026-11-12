@@ -105,7 +105,7 @@ On the first of each month an `alarms` job decays storage in tiers: `hot` (<30 d
 ## Install (unpacked)
 
 ```bash
-git clone https://github.com/<your-username>/peruse.git
+git clone https://github.com/kang66654/Peruse.git
 cd peruse
 
 pnpm install      # no pnpm? use `corepack enable` or `npm i -g pnpm`

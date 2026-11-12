@@ -107,7 +107,7 @@ Pocket 于 2025 年 7 月停运，留下了空位。Peruse 用另一个前提补
 ## 安装（未打包）
 
 ```bash
-git clone https://github.com/<your-username>/peruse.git
+git clone https://github.com/kang66654/Peruse.git
 cd peruse
 
 pnpm install      # 没装 pnpm？corepack enable 或 npm i -g pnpm
